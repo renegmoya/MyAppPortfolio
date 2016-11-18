@@ -10,6 +10,9 @@ import android.content.Context;
 import android.widget.Toast;
 import android.widget.RelativeLayout;
 
+// toast code was obtaioned from stackOverflow
+// button.set.onClick code was learned and used from thenewboston.com
+
 public class MainActivity extends AppCompatActivity {
     
     @Override
