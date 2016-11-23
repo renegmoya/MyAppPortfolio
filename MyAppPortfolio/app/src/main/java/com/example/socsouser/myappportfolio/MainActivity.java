@@ -14,7 +14,7 @@ import android.widget.RelativeLayout;
 // button.set.onClick code was learned and used from thenewboston.com
 
 public class MainActivity extends AppCompatActivity {
-    
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -38,7 +38,6 @@ public class MainActivity extends AppCompatActivity {
                         TextView v1 = (TextView) toast.getView().findViewById(android.R.id.message);
                         v1.setGravity(Gravity.TOP|Gravity.CENTER);
                         toast.show();
-
                     }
 
                 }

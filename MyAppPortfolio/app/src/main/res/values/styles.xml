@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
 
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
@@ -8,5 +8,20 @@
         <item name="colorAccent">@color/colorAccent</item>
         <item name="android:windowBackground">?android:attr/colorBackground</item>
     </style>
+
+    <style name="CustomButtonStyle" parent="Widget.AppCompat.Button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:background">#FF8F00</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:layout_alignLeft">@+id/textView2</item>
+        <item name="android:layout_alignStart" tools:targetApi="jelly_bean_mr1">@+id/textView2
+        </item>
+        <item name="android:layout_alignRight">@+id/textView2</item>
+        <item name="android:layout_alignEnd" tools:targetApi="jelly_bean_mr1">@+id/textView2</item>
+    </style>
+
 
 </resources>
